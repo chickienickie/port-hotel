@@ -5,6 +5,7 @@ body {
   align-items: center;
   font-family: Roboto;
   color: black;
+  font-weight: 300;
 }
 
 img {
@@ -28,6 +29,7 @@ img {
 h1 {
   text-align: center;
   margin: 5px 15px;
+  font-weight: 300;
 }
 
 h1 {
@@ -38,14 +40,18 @@ h2 {
   display: inline-block;
   border-bottom: 4px solid black;
   margin-top: 0;
-  font: 50px;
+  font-weight: 300;
   text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 300;
 }
 
 h4 {
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .buttons-container {
@@ -65,7 +71,6 @@ h4 {
   border: 1px solid black;
   border-radius: 3px;
   color: black;
-  font-weight: bold;
   text-decoration: none;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -84,6 +89,7 @@ h4 {
 
 .menu {
   display: none;
+  font-weight: 300;
 }
 
 .menu--is-visible {
@@ -128,6 +134,7 @@ h4 {
   margin: 5px 15px;
   padding: 10px 20px;
   font-size: 20px;
+  font-weight: 300;
 }
 
 .footer {
@@ -199,5 +206,4 @@ p.address {
 .facebook-page {
   text-align: center;
   margin-top: 50px;
-  font-weight: bold;
 }
