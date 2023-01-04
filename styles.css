@@ -221,4 +221,9 @@ p.address {
   .buttons-container {
     justify-content: left;
   }
+
+  .advertizement,
+  .footer {
+    font-size: 17px;
+  }
 }
