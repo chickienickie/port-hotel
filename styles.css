@@ -205,5 +205,20 @@ p.address {
 
 .facebook-page {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 80px;
+}
+
+@media (max-width: 1000px) {
+  .hours-heading,
+  .hours {
+    text-align: center;
+  }
+
+  .hours-heading {
+    margin: 10px;
+  }
+
+  .buttons-container {
+    justify-content: left;
+  }
 }
