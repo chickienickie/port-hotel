@@ -218,12 +218,12 @@ p.address {
     margin: 10px;
   }
 
-  .buttons-container {
-    justify-content: left;
-  }
-
   .advertizement,
   .footer {
     font-size: 17px;
+  }
+
+  .button {
+    padding: 10px 10px;
   }
 }
