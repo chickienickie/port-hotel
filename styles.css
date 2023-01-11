@@ -59,10 +59,6 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 35px;
-
-  @media (min-width: 768px) {
-    margin-bottom: 60px;
-  }
 }
 
 .button {
